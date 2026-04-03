@@ -2,28 +2,52 @@
   "workflowApiVersion": "1.1",
   "metaData": {
     "category": "message",
-    "isConfigured": false
+    "isConfigured": true
   },
   "type": "Rest",
+
   "lang": {
     "en-US": {
       "name": "Post Office",
       "description": "Disparo de comunicacao"
     }
   },
+
   "arguments": {
     "execute": {
-      "inArguments": [],
+      "inArguments": [
+        {
+          "contactKey": "{{Contact.Key}}"
+        }
+      ],
       "outArguments": []
     }
   },
+
   "configurationArguments": {
     "applicationExtensionKey": "0bf21ce9-077f-4fc8-a94c-2ad16ae5020b",
+
+    "save": {
+      "url": "https://webhook.site/SEU-ID",
+      "verb": "POST"
+    },
+
+    "publish": {
+      "url": "https://webhook.site/SEU-ID",
+      "verb": "POST"
+    },
+
+    "validate": {
+      "url": "https://webhook.site/SEU-ID",
+      "verb": "POST"
+    },
+
     "execute": {
       "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     }
   },
+
   "userInterfaces": {
     "configModal": {
       "url": "https://sfmclmcm.github.io/postoffice-activity/index.html",
