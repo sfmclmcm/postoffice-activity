@@ -1,0 +1,34 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "category": "message",
+    "isConfigured": false
+  },
+  "type": "Rest",
+  "lang": {
+    "en-US": {
+      "name": "Post Office",
+      "description": "Disparo de comunicacao"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [],
+      "outArguments": []
+    }
+  },
+  "configurationArguments": {
+    "applicationExtensionKey": "POSTOFFICE_KEY",
+    "execute": {
+      "url": "https://webhook.site/SEU-ID",
+      "verb": "POST"
+    }
+  },
+  "userInterfaces": {
+    "configModal": {
+      "url": "https://google.com",
+      "height": 600,
+      "width": 800
+    }
+  }
+}
