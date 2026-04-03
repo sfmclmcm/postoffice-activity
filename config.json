@@ -18,7 +18,7 @@
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "POSTOFFICE_KEY",
+    "applicationExtensionKey": "0bf21ce9-077f-4fc8-a94c-2ad16ae5020b",
     "execute": {
       "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
@@ -26,7 +26,7 @@
   },
   "userInterfaces": {
     "configModal": {
-      "url": "https://google.com",
+      "url": "https://sfmclmcm.github.io/postoffice-activity/index.html",
       "height": 600,
       "width": 800
     }
