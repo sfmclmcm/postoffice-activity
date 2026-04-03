@@ -25,27 +25,27 @@
   "configurationArguments": {
     "applicationExtensionKey": "0bf21ce9-077f-4fc8-a94c-2ad16ae5020b",
     "save": {
-      "url": "https://SEU-ENDPOINT-REAL/save",
+      "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     },
     "publish": {
-      "url": "https://SEU-ENDPOINT-REAL/publish",
+      "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     },
     "validate": {
-      "url": "https://SEU-ENDPOINT-REAL/validate",
+      "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     },
     "unpublish": {
-      "url": "https://SEU-ENDPOINT-REAL/unpublish",
+      "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     },
     "stop": {
-      "url": "https://SEU-ENDPOINT-REAL/stop",
+      "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     },
     "execute": {
-      "url": "https://SEU-ENDPOINT-REAL/execute",
+      "url": "https://webhook.site/SEU-ID",
       "verb": "POST"
     }
   },
