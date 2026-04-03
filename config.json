@@ -2,17 +2,16 @@
   "workflowApiVersion": "1.1",
   "metaData": {
     "category": "message",
-    "isConfigured": true
+    "isConfigured": true,
+    "configOnDrop": true
   },
   "type": "Rest",
-
   "lang": {
     "en-US": {
       "name": "Post Office",
       "description": "Disparo de comunicacao"
     }
   },
-
   "arguments": {
     "execute": {
       "inArguments": [
@@ -23,36 +22,44 @@
       "outArguments": []
     }
   },
-
   "configurationArguments": {
     "applicationExtensionKey": "0bf21ce9-077f-4fc8-a94c-2ad16ae5020b",
-
     "save": {
-      "url": "https://webhook.site/SEU-ID",
+      "url": "https://SEU-ENDPOINT-REAL/save",
       "verb": "POST"
     },
-
     "publish": {
-      "url": "https://webhook.site/SEU-ID",
+      "url": "https://SEU-ENDPOINT-REAL/publish",
       "verb": "POST"
     },
-
     "validate": {
-      "url": "https://webhook.site/SEU-ID",
+      "url": "https://SEU-ENDPOINT-REAL/validate",
       "verb": "POST"
     },
-
+    "unpublish": {
+      "url": "https://SEU-ENDPOINT-REAL/unpublish",
+      "verb": "POST"
+    },
+    "stop": {
+      "url": "https://SEU-ENDPOINT-REAL/stop",
+      "verb": "POST"
+    },
     "execute": {
-      "url": "https://webhook.site/SEU-ID",
+      "url": "https://SEU-ENDPOINT-REAL/execute",
       "verb": "POST"
     }
   },
-
   "userInterfaces": {
     "configModal": {
       "url": "https://sfmclmcm.github.io/postoffice-activity/index.html",
       "height": 600,
       "width": 800
     }
-  }
+  },
+  "wizardSteps": [
+    {
+      "label": "Configuracao",
+      "key": "step1"
+    }
+  ]
 }
